@@ -5,6 +5,8 @@
  font-family: 'roboto' , sans-serif;
 
 }
+
+        
 header{
 
     background-image:url('hero.jpg') ;
@@ -15,6 +17,11 @@ header{
     position: relative;
 
 }
+
+body{
+    background-image: url(background.jpg);
+}
+
 
 .overlay {
     position: absolute;
@@ -51,6 +58,13 @@ nav li {
     display: inline-block;
     padding-right: 10px;
     padding-left: 10px;
+    
+}
+
+nav a {
+    padding: 5px;
+    background-color: #fff;
+    text-decoration: none;;
 }
 
 nav li span {
@@ -95,6 +109,22 @@ overflow: hidden;
 
 }
 
+.container button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.container button:hover{
+    opacity: 0.7;
+}
+
 .add-cart{
     position: absolute;
     width: 100%;
@@ -115,6 +145,7 @@ text-decoration: none;
  
 
 }
+
     
 
 

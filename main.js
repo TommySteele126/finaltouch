@@ -14,7 +14,7 @@ let products = {
 
 
 
-for (leti=0;i < cart.length; i++) {
+for (let i = 0; i < cart.length; i++) {
     cart[i].addEventListener('click', ()=> {
         cartNumber();
     })
